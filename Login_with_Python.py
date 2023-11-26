@@ -3,8 +3,8 @@ import requests
 LoginURL = 'https://github.com/login'
 AfterLogin = 'https://github.com/'
 payload = {
-    'Username or email address': 'tropicalpenguin2006@icloud.com',
-    'Password': 'Tinkerbell2012!!!!'
+    'Username or email address': 'your_username',
+    'Password': 'your_password'
 }
 with requests.Session() as session:
     post = session.post(LoginURL, data=payload)
